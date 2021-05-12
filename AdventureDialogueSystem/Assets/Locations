@@ -1,0 +1,41 @@
+CONST BUDDHA_HOLE = 1
+CONST JADE_POOL = 2
+CONST SOUL_CONNECTIONS = 3
+CONST ASTRO_VAN = 4
+CONST BUTTHURT_VALLEY = 5
+
+
+VAR player_location = BUDDHA_HOLE
+VAR chopo_location = ASTRO_VAN
+VAR ltb_location = BUTTHURT_VALLEY
+
+
+
+
+
+== run_player_location
+    {   player_location:
+    -   JADE_POOL:  -> jade_pool
+    -   ASTRO_VAN: -> astro_van
+    -   BUDDHA_HOLE: -> buddha_hole
+    -   BUTTHURT_VALLEY: -> butthurt_valley
+    }
+
+
+
+=== jade_pool ===
+    = stumble_upon_it
+        WTF?
+    = 
+
+=== astro_van ===
+    = locked_out
+        Shit
+    
+=== buddha_hole ===
+    = encounter_drum_circle
+        Damn it
+        
+=== butthurt_valley ===
+    = enter
+        Sry, my tailbone aches
